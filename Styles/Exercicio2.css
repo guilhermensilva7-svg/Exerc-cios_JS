@@ -1,0 +1,37 @@
+.container{
+    display:grid;
+    grid-template-areas: 
+    'header header header'
+    'aside section section'
+    'footer footer footer';
+    gap: 20px;
+    grid-auto-rows: 200px 500px 200px;
+}
+body{
+    background-color: bisque;
+}
+header{
+    grid-area: header;
+    background-color: blueviolet;
+    border-radius: 30px;
+    text-align: center;
+}
+aside{
+    grid-area: aside;
+    background-color: blue;
+    border-radius: 30px;
+    text-align: center;
+}
+section{
+    grid-area: section;
+    background-color: chocolate;
+    border-radius: 30px;
+    text-align: center;
+}
+footer{
+    grid-area: footer;
+    background-color: brown;
+    border-radius: 30px;
+    text-align: center;
+}
+
