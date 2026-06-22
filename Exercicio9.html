@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 09 - JS</title>
+</head>
+<body>
+    <script>
+        var notas= prompt("Digite o conceito do aluno (A, B, C, D, E ou F):").toUpperCase();
+
+        switch (notas) {
+            case 'A':
+                document.write('Excelente');
+                break;
+            case 'B':
+                document.write('Ótimo');
+                break;
+            case 'C':
+                document.write('Bom');
+                break;
+            case 'D':
+                document.write('Regular');
+                break;
+            case 'E':
+                document.write('Ruim');
+                break;
+            case 'F':
+                document.write('Nos vemos de novo ano que vem...');
+                break;
+            default:
+                document.write('Conceito inexistente!');
+        }
+    </script>
+</body>
+</html>

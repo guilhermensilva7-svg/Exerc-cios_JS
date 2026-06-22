@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 10 - JS</title>
+</head>
+<body>
+    <script>
+        var notas= prompt("Digite quantos dias:").toUpperCase();
+
+        switch (notas) {
+            case '28':
+                document.write('Fevereiro');
+                break;
+            case '29':
+                document.write('Fevereiro, só que em apenas em anos bissextos');
+                break;
+            case '30':
+                document.write('Abril, Junho, Setemebro e Novembro');
+                break;
+            case '31':
+                document.write('Janeiro, Março, Maio, Julho, Agosto, Outubro e Dezembro');
+                break;
+            default:
+                document.write('Aí não né pae');
+        }
+    </script>
+</body>
+</html>
